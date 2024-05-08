@@ -2,8 +2,8 @@ In this project, we will explore the process of recreating the iconic Tetris exp
 
 The project is a clone project and contains my own css and javascript code. Keep coding to become a successful developer in Gaming & Web :)
 
-Linkedin adresime [buradan](www.linkedin.com/in/enesseri) ulaşabilirsiniz.
+You can reach my LinkedIn profile [here](https://www.linkedin.com/in/enesseri).
 
-##Game Screenshot
+## Game Screenshot
 
-![screenshot](//TetrisClone/Screenshot.png)
+![screenshot](Screenshot.png)

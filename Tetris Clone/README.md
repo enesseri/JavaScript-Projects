@@ -2,6 +2,3 @@ In this project, we will explore the process of recreating the iconic Tetris exp
 
 The project is a clone project and contains my own css and javascript code. Keep coding to become a successful developer in Gaming & Web :)
 
-
-##Game Screenshot
-

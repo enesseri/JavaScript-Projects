@@ -19,7 +19,7 @@ body{
 
 .container{
     height: 400px;
-    background-color: #232931;
+    background-color: #0b2d58;
     color: #fff;
     border-radius: 25px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -149,9 +149,9 @@ body{
     width: 100%;
     border: none;
     font-weight: 700;
-    border-radius: 25px;
+    border-radius: 35px;
     padding: 10px;
-    background: #303f9f;
+    background: #3e51ca;
     color: #fff;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);

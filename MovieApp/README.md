@@ -12,4 +12,4 @@ You can reach my LinkedIn profile [here](https://www.linkedin.com/in/enesseri).
 ## Screenshot
 A screenshot of the project is given below.
 
-![screenshot](Screenshot.png)
+![screenshot](screenshot.png)

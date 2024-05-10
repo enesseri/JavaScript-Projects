@@ -10,6 +10,7 @@ body{
     background: url(food.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .container{

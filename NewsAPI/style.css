@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #111924;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #b9bec6;
+    transition: all 0.3s ease;
+}
+
+.container:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+    border-bottom: 3px solid #111924;
+    padding-bottom: 45px;
+}
+
+.selectionContainer,
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.selectionContainer select {
+    text-align: center;
+}
+
+
+label{
+    font-size: 22px;
+    margin-right: 100px;
+}
+
+select,
+input[type="text"]{
+    background-color: #c7cace;
+    padding: 10px;
+    margin: 2px;
+    flex: 1;
+    border: 1.5px solid #111924;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+button{
+    background-color: #111924;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.newsItem{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid #111924;
+    padding-bottom: 20px;
+}
+
+.newsItem:last-child{
+    border-bottom: none;
+}
+
+.newsImage{
+    flex: 1;
+    max-width: 300px;
+}
+
+.newsImage img{
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.newsContent{
+    flex: 2;
+    margin-left: 20px;
+}
+
+.newsContent .info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #990000;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.newsContent .info h5{
+    margin: 0;
+    font-weight: 400;
+}
+
+.newsContent h2{
+    font-size: 18px;
+    color: #111924;
+    margin-top: 0;
+    max-height: 44px;
+    overflow: hidden;
+}
+
+.newsContent p{
+    color: #111924;
+    margin: 10px 0 20px;
+    font-size: 14px;
+    max-height: 33px;
+    overflow: hidden;
+}
+
+.newsContent a{
+    background-color: #111924;
+    color: #fff;
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.newsContent a:hover{
+    background-color: rgba(17, 25, 36, 0.5);
+}

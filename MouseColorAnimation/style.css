@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #0b2d58;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box {
+    width: 20px;
+    margin: 1px;
+    height: 20px;
+    background-color: #444;
+    border: 1px solid #000;
+    transition: all 0.4s ease;
+}
